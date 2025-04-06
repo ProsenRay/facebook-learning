@@ -1,0 +1,13 @@
+@extends('Frontend.Layouts.app')
+@section('content')
+    @include('Frontend.courses.facebook.hero-section')
+    @include('Frontend.courses.tab')
+    @include('Frontend.courses.facebook.course-content')
+    @include('Frontend.courses.facebook.course-cariculam')
+    @include('Frontend.courses.market-place')
+    @include('Frontend.courses.facebook.enrol_alert')
+    @include('Frontend.Partials.course-support')
+    @include('Frontend.courses.carousel-slider')
+    @include('Frontend.courses.mentor')
+    @include('Frontend.courses.facebook.faq')
+@endsection
